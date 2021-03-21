@@ -1,0 +1,254 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+	list-style: none;
+}
+body{
+	background: #f0f8ff;
+}
+.navbar{
+	width: 	100%;
+	position: fixed;
+	background-color: red;
+	color: white;
+	top: 0;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;	
+	justify-content:space-between;	
+	align-content: 	center;	
+	margin: 20px auto;
+}
+.logo{
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 20px;
+}
+.menu{
+	padding-top: 10px;
+	padding-left: 250px;
+}
+.menu li{
+	display:inline-block;	
+}
+.menu li a{ 
+    color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 0s;
+}
+.menu li a:hover{
+	color: black;
+}
+.sous{
+	display: none;
+	position: absolute;
+}
+.menu li:hover .sous{
+   display: block;
+}
+.sous li{
+     border: none;
+     text-align: left;
+     width: 90%;
+     background-color: red;
+}
+ .home{
+	display: flex;
+	margin-top: 100px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.div-home1{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-left: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home2{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-left: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home3{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	margin: auto 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home4{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-right: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home5{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-right: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.home1{
+	display: flex;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.div-home11{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-left: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home12{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-left: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home13{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	margin: auto 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home14{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-right: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home15{
+	width: 20%;
+	height: 350px;
+	background-color: #ffffff;
+	margin-right: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.home2{
+	display: flex;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: blue;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.div-home21{
+	width: 20%;
+	height: 350px;
+	background-color: yellow;
+	margin-left: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home22{
+	width: 20%;
+	height: 350px;
+	background-color: red;
+	margin-left: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home23{
+	width: 20%;
+	height: 350px;
+	background-color: orange;
+	border-radius: 10px;
+	margin: auto 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home24{
+	width: 20%;
+	height: 350px;
+	background-color: green;
+	margin-right: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.div-home25{
+	width: 20%;
+	height: 350px;
+	background-color: grey;
+	margin-right: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.namehom44,.price{
+	text-align: center;
+}
+img{
+	border-radius: 10px;
+}
+.div-home1:hover{
+	border: 2px solid black;
+}
+.div-home2:hover{
+	border: 2px solid black;
+}
+.div-home3:hover{
+	border: 2px solid black;
+}
+.div-home4:hover{
+	border: 2px solid black;
+}
+.div-home5:hover{
+	border: 2px solid black;
+}
+.div-home11:hover{
+	border: 2px solid black;
+}
+.div-home12:hover{
+	border: 2px solid black;
+}
+.div-home13:hover{
+	border: 2px solid black;
+}
+.div-home14:hover{
+	border: 2px solid black;
+}
+.div-home15:hover{
+	border: 2px solid black;
+}

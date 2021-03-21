@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+	list-style: none;
+}
+body{
+	background: #f0f8ff;
+}
+.navbar{
+	width: 	100%;
+	position: fixed;
+	background-color: red;
+	color: white;
+	top: 0;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;	
+	justify-content:space-between;	
+	align-content: 	center;	
+	margin: 20px auto;
+}
+.logo{
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 20px;
+}
+.menu{
+	padding-top: 10px;
+	padding-left: 250px;
+}
+.menu li{
+	display:inline-block;	
+}
+.menu li a{ 
+    color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 0s;
+}
+.menu li a:hover{
+	color: black;
+}
+.sous{
+	display: none;
+	position: absolute;
+}
+.menu li:hover .sous{
+   display: block;
+}
+.sous li{
+     border: none;
+     text-align: left;
+     width: 90%;
+     background-color: red;
+}
+.home1{
+	text-align: center;
+	
+	background-color: #ffffff;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.home{
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+}
+.div-left{
+	width: 40%;
+	height: 400px;
+	background-color: #ffffff;
+}
+.div-right{
+	width: 60%;
+	height: 400px;
+	background-color: #ffffff;
+	display: block;
+	text-align: center;
+}
+.po{
+	display: block;
+}
+.bouton{
+	font-size: 20px;
+	font-weight: 200;
+	border: 2px solid red;
+	background-color: red;
+	border-radius: 10px
+}
+.bouton:hover{
+	background-color: #ffffff;
+}
+.footer{
+	height: 50px;
+	background-color: black;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	padding: auto auto;
+	margin-bottom: 0;
+}
+.home2{
+	margin-top: 100px;
+	background-color: #ffffff;
+	margin-left: 100px;
+	margin-right: 100px;
+}

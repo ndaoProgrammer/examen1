@@ -1,0 +1,355 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	font-family: cursive;
+	list-style: none;
+}
+body{
+	background: #f0f8ff;
+}
+.navbar{
+	width: 	100%;
+	position: fixed;
+	background-color: red;
+	color: white;
+	top: 0;
+}
+.navbar .max-width{
+	width: 1300px;
+	display: flex;	
+	justify-content:space-between;	
+	align-content: 	center;	
+	margin: 20px auto;
+}
+.logo{
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: 20px;
+}
+.menu{
+	padding-top: 10px;
+	padding-left: 250px;
+}
+.menu li{
+	display:inline-block;	
+}
+.menu li a{ 
+    color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 0s;
+}
+.menu li a:hover{
+	color: black;
+}
+.sous{
+	display: none;
+	position: absolute;
+}
+.menu li:hover .sous{
+   display: block;
+}
+.sous li{
+     border: none;
+     text-align: left;
+     width: 90%;
+     background-color: red;
+}
+.home8{
+	background-color: #ffffff;
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+.div-home81{
+	width: 20%;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home82{
+	width: 20%;
+	height: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home83{
+	width: 20%;
+	height: 300px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home84{
+	width: 20%;
+	height: 300px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home85{
+	width: 20%;
+	height: 300px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.namehom44{
+	text-align: center;
+}
+.price{
+	text-align: center;
+}
+.div-home81:hover{
+	border: 2px solid black;
+}
+.div-home82:hover{
+	border: 2px solid black;
+}
+.div-home83:hover{
+	border: 2px solid black;
+}
+.div-home84:hover{
+	border: 2px solid black;
+}
+.div-home85:hover{
+	border: 2px solid black;
+}
+.home0{
+	display: flex;
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-right: 100px;
+	margin-left: 100px;
+	border-radius: 10px;
+}
+img{
+	border-radius: 10px;
+}
+.div-home01{
+	width: 20%;
+	height: 300px;
+	background-color: #ffffff;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.div-home02{
+	width: 20%;
+	height: 300px;
+	background-color: #ffffff;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+
+.div-home03{
+	width: 20%;
+	height: 300px;
+	background-color: #ffffff;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.div-home04{
+	width: 20%;
+	height: 300px;
+	background-color: #ffffff;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.div-home05{
+	width: 20%;
+	height: 300px;
+	background-color: #ffffff;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-radius: 10px;
+}
+.div-home05:hover{
+	border: 2px solid black;
+}
+.div-home01:hover{
+	border: 2px solid black;
+}
+.div-home02:hover{
+	border: 2px solid black;
+}
+.div-home03:hover{
+	border: 2px solid black;
+}
+.div-home04:hover{
+	border: 2px solid black;
+}
+.home14{
+	background-color: #ffffff;
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.div-home141{
+	width: 20%;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home142{
+	width: 20%;
+	height: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home143{
+	width: 20%;
+	height: 300px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home144{
+	width: 20%;
+	height: 300px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home145{
+	width: 20%;
+	height: 300px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home141:hover{
+	border: 2px solid black;
+}
+.div-home142:hover{
+	border: 2px solid black;
+}
+.div-home143:hover{
+	border: 2px solid black;
+}
+.div-home144:hover{
+	border: 2px solid black;
+}
+.div-home145:hover{
+	border: 2px solid black;
+}
+.home{
+	background-color: #ffffff;
+	display: flex;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.div-home1{
+	width: 20%;
+	height: 280px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home2{
+	width: 20%;
+	height: 280px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home3{
+	width: 20%;
+	height: 280px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home4{
+	width: 20%;
+	height: 280px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home5{
+	width: 20%;
+	height: 280px;
+	margin-right: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.div-home1:hover{
+	border: 2px solid black;
+}
+.div-home2:hover{
+	border: 2px solid black;
+}
+.div-home3:hover{
+	border: 2px solid black;
+}
+.div-home4:hover{
+	border: 2px solid black;
+}
+.div-home5:hover{
+	border: 2px solid black;
+}
+.footer{
+	height: 50px;
+	background-color: black;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	padding: auto auto;
+}
